@@ -73,7 +73,7 @@ def generate_similarity():
     cv = CountVectorizer(max_features=5000, stop_words='english')
     vector = cv.fit_transform(movies['tags']).toarray()
     similarity = cosine_similarity(vector)
-    #np.savetxt("similarity.csv", similarity, delimiter=",")
+    np.savetxt("similarity.csv", similarity, delimiter=",")
     return(similarity)
     
 # recommend("Pirates of the Caribbean: At World's End", movies, similarity)
