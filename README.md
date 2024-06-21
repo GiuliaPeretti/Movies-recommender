@@ -4,7 +4,7 @@ After chosing a movie from the drop down menu you will see a lis of recommended 
 ![Alt text](Screenshot.png)
 ![Alt text](Screenshot(4).png)
 
-## How to use the prokect
+## How to use
 In order to use this project you need to:
 - download the dataset from this link:
 https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
